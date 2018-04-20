@@ -48,3 +48,34 @@
     font-weight: bold;
     margin-top: 20px;
 }
+.footerwrapper{
+  display: inline-block;
+  font-weight: bold;
+  /* border: solid 2px red; */
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+
+}
+.footer{
+  /* border: solid 2px yellow; */
+  display: inline-block;
+  margin:auto;
+  /* position:relative;
+  left: 475px; */
+  text-align: center;
+  margin: 0 auto;
+}
+.footerlinks {
+    display: inline-block;
+    background-color: aqua;
+    color: black;
+    border-radius: 40px;
+    /* padding: 14px 25px; */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 6px;
+    text-align: center;
+}
