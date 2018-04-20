@@ -17,17 +17,25 @@
   margin: 0 auto;
 }
 
+
+
 .navbar{
   grid-column-start: 1;
   grid-column-end: 2;
   text-align: left;
   display: block;
-  top: 250px;
+  /* top: 250px; */
   position: relative;
   text-transform: uppercase;
   font-size: 20px;
   font-weight:bold;
+  /* border: 2px solid red; */
 }
+nav {
+  /* border: 2px solid blue; */
+  margin-top: 250px;
+}
+
 .headimage{
   background-image: url("polar.jpg");
   background-repeat: no-repeat;
@@ -35,6 +43,8 @@
   grid-column-start: 2;
   grid-column-end: 3;
   height: 300px;
+  width: 100%;
+  /* border: 2px solid green; */
   /* border-radius: 20px; */
 }
 
@@ -48,6 +58,7 @@
 
 a:link{
   text-decoration: none;
+  display: block;
 }
 .donatebtn {
   border: none;
@@ -71,6 +82,17 @@ a:link{
 }
 
 @media all and (max-width: 480px){
+  .headimage {
+    height: 200px;
+  }
+  nav {
+    margin-top: 100px;
+  }
+  .navbar {
+    /* border: 2px solid red; */
+    height: 200px;
+  }
+
   .gallery{
     grid-template-columns: 1fr;
     grid-column-gap: 5px;
@@ -81,6 +103,13 @@ a:link{
 }
 
 @media all and (min-width: 481px) and (max-width: 768px){
+
+  .headimage {
+    height: 250px;
+  }
+  nav {
+    margin-top: 150px;
+  }
   .gallery{
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 5px;
@@ -90,6 +119,12 @@ a:link{
   }
 }
 @media all and (min-width: 769px) and (max-width: 992px){
+  .headimage {
+    height: 300px;
+  }
+  nav {
+    margin-top: 200px;
+  }
   .gallery{
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 5px;
