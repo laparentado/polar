@@ -7,8 +7,23 @@
 .help-links {
   margin-top:40px;
 }
+.partnerlinks {
+  position: relative;
+  top: 10px;
+  margin-right: 10px;
+}
+.call-us {
+  margin-top: 20px;
+}
+.visit {
+  margin-top: 20px;
+}
 .contact {
   margin-top:40px;
+  border: solid 1px dimgrey;
+  display:inline-block;
+  width: 50%;
+  margin-bottom: 100px;
 }
 .donatebtn {
   border: none;
@@ -19,7 +34,7 @@
   border-radius: 40px;
   padding:20px 20px;
 }
-.email {
+.links {
     display: inline-block;
     background-color: aqua;
     color: black;
@@ -29,3 +44,5 @@
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
+    margin-top: 20px;
+}
