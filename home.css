@@ -44,8 +44,6 @@ nav {
   grid-column-end: 3;
   height: 300px;
   width: 100%;
-  /* border: 2px solid green; */
-  /* border-radius: 20px; */
 }
 
 .content{
