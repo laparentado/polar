@@ -63,11 +63,16 @@ a:link{
   grid-row-gap: 5px;
 }
 
+.images{
+  width: 100%;
+}
+
 @media all and (max-width: 480px){
   .gallery{
     grid-template-columns: 1fr;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
+    width: 100%;
 
   }
 }
@@ -77,6 +82,7 @@ a:link{
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
+    width: 100%;
 
   }
 }
@@ -85,5 +91,6 @@ a:link{
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
+    width: 100%;
 
   }
