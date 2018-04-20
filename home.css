@@ -14,6 +14,7 @@
   grid-column-gap: 5x;
   grid-row-gap: 5px;
   font-family: sans-serif;
+  margin: 0 auto;
 }
 
 .navbar{
@@ -25,8 +26,8 @@
   position: relative;
   text-transform: uppercase;
   font-size: 20px;
+  font-weight:bold;
 }
-
 .headimage{
   background-image: url("polar.jpg");
   background-repeat: no-repeat;
@@ -34,6 +35,7 @@
   grid-column-start: 2;
   grid-column-end: 3;
   height: 300px;
+  /* border-radius: 20px; */
 }
 
 .content{
@@ -41,6 +43,7 @@
   background-color: whitesmoke;
   grid-column-start: 1;
   grid-column-end: 3;
+  text-align: center;
 }
 
 a:link{
