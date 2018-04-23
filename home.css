@@ -78,6 +78,10 @@ a:link{
 .image{
   width: 100%;
 }
+.content-heading {
+  margin-top: 20px;
+  margin-bottom: 20px
+}
 
 @media all and (max-width: 480px){
   .headimage {
@@ -128,5 +132,4 @@ a:link{
     grid-column-gap: 5px;
     grid-row-gap: 5px;
     width: 100%;
-
   }
